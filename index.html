@@ -1,331 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Soham Shitole resume</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Soham Shitole</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/sohamS.jpeg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li> -->
-                </ul>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio website complete</title>
+</head>
+<body>
+<!--===== HEADER =====-->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">Nivedita Gadade</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+
+
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+</header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Nivedita</span><br>Data Analyst<br>
+                    <span class="home__subtitle">Transforming raw data into actionable insights, one analysis at a time.</span>
+                </h1>
+                <a href="#" class="button" onclick="showContact()">Contact</a>
+                <!-- Empty div to display contact information -->
+                <div id="contactInfo" style="display: none;"></div>                <a href="assets\assets\Nivedita Gadade Resume.pdf" class="button">Download Resume</a>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Soham
-                        <span class="text-primary" id="name-animation">
-                            <span class="color-animate">S</span><span class="color-animate">h</span><span class="color-animate">i</span><span class="color-animate">t</span><span class="color-animate">o</span><span class="color-animate">l</span><span class="color-animate">e</span>
-                        </span>
-                    
-                    </h1>
-                    <div class="subheading mb-5">
-                        Binghamton, NewYork. +1(607)374-0834.
-                        <a href="mailto:shitolesoham@gmail.com" data-replace="shitolesoham@gmail.com"><span>shitolesoham@gmail.com</span></a>
-                    </div>
-                    
-                    <p class="lead mb-5">With a Computer Science foundation, I specialize in blending cloud computing, data science, and agile methodologies, adeptly using Python, Java, and web technologies in roles such as Senior Research Assistant and AI/ML Intern, all while focusing on collaborative problem-solving and continuous learning.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/soham-shitole">
-                            <span class="icon"><i class="fab fa-linkedin-in"></i></span>
-                        </a>
-                        <a class="social-icon" href="https://github.com/sshitol1">
-                            <span class="icon"><i class="fab fa-github"></i></span>
-                        </a>
-                    </div>
-                    
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/nivedita-gadade/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/nivedita30" class="home__social-icon" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/profile.jpeg"/>
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/profile.jpeg" alt="">
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                
+                <div>
+                    <h2 class="about__subtitle">Nivedita Gadade</h2>
+                    <p class="about__text">Welcome to my data analyst portfolio! I'm dedicated to transforming raw data into actionable insights that drive strategic decision-making. With expertise in statistical analysis, data visualization, and programming languages like Python and SQL, I specialize in uncovering patterns, trends, and opportunities within complex datasets. My passion lies in translating data into compelling narratives that empower businesses to make informed choices and achieve their goals. Let's harness the power of data together to unlock new possibilities and drive growth.</p>           
+                </div>                                   
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <!-- <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+        
+            <div class="skills__container bd-grid">          
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">Languages: Python, Java, C, C++, .Net, HTML/CSS, JavaScript/TypeScript</p>
+                    <p class="skills__text">Tools & Frameworks: Selenium WebDriver, Appium, Jenkins, JIRA Xray, Postman, Cucumber, SoapUI, JMeter, Pytest, Visual Studio Code, GIT, Maven, TestNG, BitBucket, Microsoft Power BI, JUnit, Azure DevOps, Microsoft Excel, TestRail, Gherkin, Cypress, AWS</p>
+                    <p class="skills__text">Database: PostgreSQL, Cassandra, MSSQL, MySQL, Pl/SQL, NoSQL</p>
+                    <p class="skills__text">Skills: UAT, Smoke Testing, Cross browser testing, Regression Testing, Performance Testing, BDD (Cucumber), Security Testing, Integration testing, Android Application Testing, TDD, Agile/SCRUM, Test Planning, Test Scripting, Documentation, User Interface Testing, Web/UI Testing, SDLC</p>
+                    <p class="skills__text">Certifications: Advanced Selenium: Automation Frameworks, JMeter: Performance and Load Testing, Microsoft Power BI Certification, Agile Tester</p>
+                    <!-- Add more skills data as needed -->
+                <!-- </div>
+                
+                <div>              
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section> -->
+                
+            
+        <!-- Skills-->
+        <section class="skills section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="section-title">Skills</h2>
+                <p class="skills__text">Programming Languages & Tools:</p>
+                <h3 class="list-inline dev-icons">
+                    <li class="list-inline-item" data-description="Python"><i class="fab fa-python"></i></li> 
+                    <li class="list-inline-item" data-description="SQL"><i class="fas fa-database"></i></li>
+                    <li class="list-inline-item" data-description="R"><i class="fab fa-r-project"></i></li>
+                    <li class="list-inline-item" data-description="AWS"><i class="fa-brands fa-aws"></i></li>
+                    <li class="list-inline-item" data-description="Snowflake"><i class="fa fa-snowflake"></i></li>
+                    <li class="list-inline-item" data-description="HTML"><i class="fab fa-html5"></i></li>
+                    <li class="list-inline-item" data-description="JavaScript"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item" data-description="React"><i class="fab fa-react"></i></li>
+                    <li class="list-inline-item" data-description="Github"><i class="fab fa-github"></i></li>
+                    <li class="list-inline-item" data-description="Flask"><i class="fa fa-flask"></i></li>
+                    <li class="list-inline-item" data-description="Database"><i class="fa fa-database"></i></li>
+                </h3>
+                <div class="skills__text">Tools</div>
+                <h3><div class="skills__text">Microsoft Office Suite, Tableau, MS PowerBI, Azure, Hive, Snowflake, SAP, Salesforce CRM, Confluence, JIRA, AWS Cloud</div></h3>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Experience</h2>
+            <div class="work__container bd-grid">
+        
+                <div class="work__experience">
                     <details>
                         <summary>
-                            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                                <div class="flex-grow-1">
-                                    <!-- Logo image -->
-                                    <img src="assets/img/suny_rf.jpeg" alt="suny_rf" style="width: 100px; height: 100px; margin-right: 10px;">
-                                    <!-- Text content -->
-                                    <div>
-                                        <h3 class="mb-0">Senior Research Assistant</h3>
-                                        <div class="subheading mb-3">SUNY RF</div>
-                                        <p class="skills">
-                                            Skills: Data Analysis, Project Management, LabVIEW, MySQL, CFD Simulations
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="flex-shrink-0"><span class="text-primary"> November 2022 - Present</span></div>
+                            <div class="work__company-logo">
+                                <img src="assets/img/IACM.png" alt="ItsACheckmate Inc">
+                            </div>
+                            <div class="work__details">
+                                <h3>ItsACheckmate Inc, NYC</h3>
+                                <p>May 2023 – August 2023</p>
+                                <p>Data Analyst Intern</p>
+                                <p class="skills">
+                                    Skills: Data Analysis, Project Management, LabVIEW, MySQL, CFD Simulations
+                                </p>
                             </div>
                         </summary>
                         <ul>
-                            <li>● Streamline a data center setup with sensors and a Data Acquisition System and implementing LabVIEW for efficient real-time data capture, improving accuracy and reducing collection time by 40%</li>
-                            <li>● Collected and optimized management of 100 GB sensor data in a centralized database system using MySQL, enhancing storage and retrieval efficiency, and achieving a 25% increase in data accuracy and system scalability</li>
-                            <li>● Lead a team of 8 cross-functional researchers in data center validation tests and standardizing CFD simulations for airflow modeling with Python and NVIDIA GPUs, enhancing analysis accuracy and process efficiency</li>
+                            <li>Utilized predictive analytics to forecast customer demand, resulting in a 25% reduction in inventory costs and a 15% improvement in on-time delivery.</li>
+                            <li>Utilized Selenium and BDD frameworks such as Cucumber to craft robust test scripts and ensure thorough test coverage</li>
+                            <li>Collaborated with agile scrum teams to design and execute automated regression tests for web and backend applications</li>
+                            <li>Managed code repositories using Azure DevOps, ensuring version control and team coordination</li>
+                            <li>Provided accurate testing estimates during project discovery and sprint planning phases, optimizing project timelines and resources</li>
                         </ul>
                     </details>
-
+                </div>
+        
+                
+                <div class="work__experience">
                     <details>
                         <summary>
-                            <div class="d-flex flex-column flex-md-row justify-content-between">
-                                <div class="flex-grow-1">
-                                    <!-- Logo image -->
-                                    <img src="assets/img/empeq.png" alt="empeq" style="width: 100px; height: 100px; margin-right: 10px;">
-                                    <!-- Text content -->
-                                    <div>
-                                        <h3 class="mb-0">AI/ML Intern</h3>
-                                        <div class="subheading mb-3">EMPEQ</div>
-                                        <p class="skills">
-                                            Skills: Amazon Textract API, Python, SpaCy, OpenCV, TensorFlow, Keras, Convolutional Neural Networks (CNNs), Data Analysis
-                                        </p>
-                                    </div>
-                                </div>
-                            <div class="flex-shrink-0"><span class="text-primary">June 2023 - August 2023</span></div>
+                            <div class="work__company-logo">
+                                <img src="assets/img/watts-logo.png" alt="Watts Water Technologies Logo">
+                            </div>
+                            <div class="work__details">
+                                <h3>Watts Water Technologies, Texas</h3>
+                                <p>May 2023 – August 2023</p>
+                                <p>Robotics Process Automation Developer Intern</p>
+                                <p class="skills">
+                                    Skills: Data Analysis, Project Management, LabVIEW, MySQL, CFD Simulations
+                                </p>
                             </div>
                         </summary>
                         <ul>
-                            <li>● Increased processing efficiency by 30% through Amazon Textract API for image text extraction</li>
-                            <li>● Enhanced NER accuracy by 35% in over 50,000 datasets using Python and SpaCy, demonstrating proficiency in preprocessing and analyzing textual data for improved classification</li>
-                            <li>● Developed advanced image enhancement algorithms using OpenCV, TensorFlow, and Keras, achieving a 40% improvement in image quality and a 30% reduction in noise through CNN fine-tuning</li>
+                            <li>Designed and implemented automated UI and API tests for web applications, utilizing Selenium and BDD frameworks</li>
+                            <li>Utilized Selenium and BDD frameworks such as Cucumber to craft robust test scripts and ensure thorough test coverage</li>
+                            <li>Collaborated with agile scrum teams to design and execute automated regression tests for web and backend applications</li>
+                            <li>Managed code repositories using Azure DevOps, ensuring version control and team coordination</li>
+                            <li>Provided accurate testing estimates during project discovery and sprint planning phases, optimizing project timelines and resources</li>
                         </ul>
                     </details>
-                        </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Binghamton University, State University of New York</h3>
-                            <div class="subheading mb-3">Master of Science</div>
-                            <div>Computer Science</div>
-                            <p>GPA: 3.35</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Expected May 2024</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Vishwakarma Institute of Information Technology</h3>
-                            <div class="subheading mb-3">Bachelor of Technology</div>
-                            <p>GPA: 3.46</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2018 - May 2022</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item" data-description="AWS"><i class="fa-brands fa-aws"></i></li>
-                        <li class="list-inline-item" data-description="HTML"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item" data-description="Cloud Computing"><i class="fa fa-cloud"></i></li>
-                        <li class="list-inline-item" data-description="JavaScript"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item" data-description="Angular"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item" data-description="React"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item" data-description="Nodejs"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item" data-description="Github"><i class="fab fa-github"></i></li>
-                        <li class="list-inline-item" data-description="Flask"><i class="fa fa-flask"></i></li>
-                        <li class="list-inline-item" data-description="Database"><i class="fa fa-database"></i></li>
-                        <li class="list-inline-item" data-description="iOS"><i class="fab fa-apple"></i></li>
-                        <li class="list-inline-item" data-description="Windows"><i class="fab fa-windows"></i></li>
-                        <li class="list-inline-item" data-description="Python"><i class="fab fa-python"></i></li>
-                        <li class="list-inline-item" data-description="Terminal"><i class="fa fa-terminal"></i></li>
-                        <li class="list-inline-item" data-description="Docker"><i class="fab fa-docker"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Libraries and softwares</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            MongoDB, Unit Testing, AWS, Git, Rest API, Jenkins, TensorFlow, Opency, Scikit, Keras, Numpy, Scipy, Flask, ETL, TeraData, Kubernetes, Tableau
-                        </li>
-                        <!-- <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li> -->
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!--Projects-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="row">
-                        <!-- Project 1 -->
-                        <div class="col-lg-4 col-md-6 col-sm-12 project-item">
-                            <a href="https://github.com/sshitol1/Stock-Price-Forecasting-and-Trading-Strategy-Optimization" target="_blank">
-                                <img src="assets/img/Stock_forecasting.webp" alt="Project 1" class="img-fluid">
-                                <div class="project-overlay">
-                                    <div class="project-info">
-                                        <h3>Stock Price Forecasting and Trading Strategy Optimization</h3>
-                                        <p>This project can be utilized for precise stock price forecasting, facilitating informed investment decisions and portfolio management strategies.</p>  
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-sm-12 project-item">
-                            <a href="https://github.com/sshitol1/Analysis-of-Factors-Influencing-Movie-Success" target="_blank">
-                                <img src="assets/img/Social_media.webp" alt="Project 1" class="img-fluid">
-                                <div class="project-overlay">
-                                    <div class="project-info">
-                                        <h3>Analysis of Factors Influencing Movie Success</h3>
-                                        <p>This project enables predictive analytics for movie success, marketing optimization, content strategy development, audience engagement enhancement</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <!-- Interests-->
-            <!-- <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-            </section>
-            <hr class="m-0" /> -->
-            <!-- Awards-->
-            <!-- <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div> -->
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="scripts/toggleDescription.js"></script>
-        <script>
-            document.addEventListener('DOMContentLoaded', (event) => {
-                const letters = document.querySelectorAll('#name-animation .color-animate');
-                const color = 'var(--bs-primary)'; // Using the CSS variable for color
-                // const color = 'var(--bs-primary)'; 
-                let i = 0;
-            
-                function animateLetterColor() {
-                    if (i < letters.length) {
-                        setTimeout(() => {
-                            letters[i].style.color = color;
-                            i++;
-                            animateLetterColor(); // Call the function for the next letter
-                        }, 500); // Time in milliseconds between color changes for each letter
-                    } else {
-                        // Reset to start the color animation again
-                        setTimeout(() => {
-                            for (let j = 0; j < letters.length; j++) {
-                                letters[j].style.color = ''; // Reset to initial color, if any
-                            }
-                            i = 0; // Reset the counter
-                            animateLetterColor(); // Restart the animation
-                        }, 2000); // Time in milliseconds before the animation restarts
-                    }
-                }
-            
-                animateLetterColor(); // Start the animation
-            });
-            </script>
-            
-            
-            
-            
-        <!-- Project Modal -->
-        <!-- <div id="projectModal" class="modal">
-            <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Stock-Price-Forecasting-and-Trading-Strategy-Optimization</h2>
-            <p>Hiii</p>
-            <a href="https://github.com/sshitol1/Stock-Price-Forecasting-and-Trading-Strategy-Optimization" target="_blank">Visit GitHub</a>
             </div>
-        </div> -->
-        <!-- <script src="js/modal.js"></script> -->
-    </body>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Message" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Preet Chaudhari</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p class="footer__copy">&copy; Preet Chaudhari. All rights reserved</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+    <!--======CONTACT======-->
+    <script>
+        function showContact() {
+            // Get the contactInfo div
+            var contactInfo = document.getElementById("contactInfo");
+            // Set the content of the contactInfo div
+            contactInfo.innerHTML = "<p>Email: nivedita.gadade@gmail.com</p><p>Phone: +1 929 655 8412</p>";
+            // Display the contactInfo div
+            contactInfo.style.display = "block";
+        }
+    </script>
+</body>
 </html>

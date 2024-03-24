@@ -263,7 +263,7 @@ img{
 /* ===== SKILLS =====*/
 .skills{
     &__container{
-        row-gap: 2rem;
+        row-gap: 3rem;
         text-align: center;
     }
     &__subtitle{
@@ -314,7 +314,7 @@ img{
         width: 85%;
     }
     &__img{
-        border-radius: .5rem;
+        border-radius: .9rem;
     }
 }
 /* ===== WORK =====*/
